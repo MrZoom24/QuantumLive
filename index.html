@@ -13,6 +13,12 @@
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
+    <!--Swiper.js Css-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <nav>
@@ -154,13 +160,13 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course1.jpg" />
+            <img src="./images/sddefault.jpg" />
           </div>
           <div class="course__info">
-            <h4>Scientific Method</h4>
+            <h4>A Universe from nothing</h4>
             <p>
-              Physicist Richard Feynman explains the scientific and unscientific
-              methods of understanding nature.
+              Lawrence Krauss explores the discoveries that have revolutionized
+              our understanding of Unverse.
             </p>
             <a href="#" class="btn btn-primary">Learn More</a>
           </div>
@@ -168,13 +174,12 @@
 
         <article class="course">
           <div class="course__image">
-            <img src="./images/course1.jpg" />
+            <img src="./images/sddefault (1).jpg" />
           </div>
           <div class="course__info">
-            <h4>Scientific Method</h4>
+            <h4>The Future of the Mind</h4>
             <p>
-              Physicist Richard Feynman explains the scientific and unscientific
-              methods of understanding nature.
+              Michio Kaku discusses his new book at Politics & Prose bookstore
             </p>
             <a href="#" class="btn btn-primary">Learn More</a>
           </div>
@@ -190,10 +195,7 @@
             <ion-icon name="add-circle-outline"></ion-icon>
           </div>
           <div class="question__answer">
-            <h4>
-              What is QuantumLive and what sets it apart from other physics
-              learning platforms?
-            </h4>
+            <h4>What sets QuantumLive appart from others?</h4>
             <p>
               QuantumLive is a comprehensive online platform dedicated to
               learning various fields of physics, with a focus on quantum
@@ -241,10 +243,7 @@
             <ion-icon name="add-circle-outline"></ion-icon>
           </div>
           <div class="question__answer">
-            <h4>
-              Are there practical applications of the concepts learned on
-              QuantumLive?
-            </h4>
+            <h4>Are there practical applications of the concepts?</h4>
             <p>
               Absolutely! QuantumLive emphasizes the real-world applications of
               physics concepts. From quantum computing to medical imaging
@@ -259,9 +258,7 @@
             <ion-icon name="add-circle-outline"></ion-icon>
           </div>
           <div class="question__answer">
-            <h4>
-              How is QuantumLive different from traditional physics textbooks?
-            </h4>
+            <h4>How is QuantumLive different from physics textbooks?</h4>
             <p>
               QuantumLive goes beyond traditional textbooks by incorporating
               interactive elements such as simulations, virtual experiments, and
@@ -293,10 +290,7 @@
             <ion-icon name="add-circle-outline"></ion-icon>
           </div>
           <div class="question__answer">
-            <h4>
-              Are there community features on QuantumLive for interaction and
-              collaboration?
-            </h4>
+            <h4>Are there community features for interaction?</h4>
             <p>
               Absolutely! QuantumLive fosters a sense of community through
               discussion forums, where users can ask questions, share insights,
@@ -312,8 +306,7 @@
           </div>
           <div class="question__answer">
             <h4>
-              How can educators integrate QuantumLive into their teaching
-              curriculum?
+              How can educators integrate QuantumLive into their teaching?
             </h4>
             <p>
               Educators can incorporate QuantumLive into their curriculum by
@@ -327,10 +320,10 @@
       </div>
     </section>
 
-    <section class="container testimonials__container">
+    <section class="container testimonials__container mySwiper">
       <h2>Student's Testimonials</h2>
-      <div>
-        <article class="testimonial">
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
           <div class="avatar">
             <img src="./images/uifaces-human-image.jpg" />
           </div>
@@ -345,7 +338,7 @@
           </div>
         </article>
 
-        <article class="testimonial">
+        <article class="testimonial swiper-slide">
           <div class="avatar">
             <img src="./images/uifaces-human-image (1).jpg" />
           </div>
@@ -360,7 +353,7 @@
           </div>
         </article>
 
-        <article class="testimonial">
+        <article class="testimonial swiper-slide">
           <div class="avatar">
             <img src="./images/uifaces-human-image (2).jpg" />
           </div>
@@ -374,7 +367,7 @@
           </div>
         </article>
 
-        <article class="testimonial">
+        <article class="testimonial swiper-slide">
           <div class="avatar">
             <img src="./images/uifaces-popular-image (1).jpg" />
           </div>
@@ -389,7 +382,7 @@
           </div>
         </article>
 
-        <article class="testimonial">
+        <article class="testimonial swiper-slide">
           <div class="avatar">
             <img src="./images/uifaces-popular-image.jpg" />
           </div>
@@ -404,8 +397,67 @@
           </div>
         </article>
       </div>
+      <div class="swiper-pagination"></div>
     </section>
 
+    <footer>
+      <div class="container footer__container">
+        <div class="footer__1">
+          <a href="index.html" class="footer__logo"><h4>QuantumLive</h4></a>
+          <p>
+            Dive into physics with interactive lessons. Explore quantum
+            mechanics effortlessly
+          </p>
+        </div>
+
+        <div class="footer__2">
+          <h4>Permalinks</h4>
+          <ul class="permalinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__3">
+          <h4>Primary</h4>
+          <ul class="privacy">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and conditions</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__4">
+          <h4>Contact Us</h4>
+          <div>
+            <p>+567 890 123</p>
+            <p>quantumlive@help.com</p>
+          </div>
+
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <small>Copyright &copy; Jumberi Kilasonia</small>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -415,5 +467,20 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
     <script src="./main.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          600: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
